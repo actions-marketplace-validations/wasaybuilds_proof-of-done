@@ -1,6 +1,6 @@
 {
   "name": "proof-of-done",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "Catch AI coding agents faking \"done\": detects deleted tests, skipped tests and removed assertions by diffing before vs. after.",
   "keywords": [
     "ai-agents",
@@ -49,7 +49,8 @@
     "test:package": "npm run build && node scripts/smoke-test.mjs"
   },
   "dependencies": {
-    "commander": "^15.0.0"
+    "commander": "^15.0.0",
+    "yaml": "^2.9.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
